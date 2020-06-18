@@ -1,8 +1,26 @@
 body {
-    background-color: black;
+    background-color:grey;
 }
 
 .card {
     text-align:center;
     margin: 2em;
+}
+
+.buttonDiv {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.imgDiv {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+button {
+    margin:1em;
 }
