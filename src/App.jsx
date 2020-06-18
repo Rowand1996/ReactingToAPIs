@@ -41,8 +41,8 @@ class App extends Component {
                     <img src={Logo} className="" alt="" />
                 </div>
                 <div className="buttonDiv">
-                    <button onClick={this.loadFilms} type="button" className="btn btn-info">Load Films</button>
-                    <button onClick={this.loadPeople} type="button" className="btn btn-info">Load People</button>
+                    <button onClick={this.loadFilms} type="button" className="btn btn-info text-dark">Load Films</button>
+                    <button onClick={this.loadPeople} type="button" className="btn btn-info text-dark">Load People</button>
                 </div>
 
                 <Film items={this.state.films} />
